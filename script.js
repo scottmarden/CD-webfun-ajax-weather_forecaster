@@ -14,16 +14,3 @@ $(document).ready(function(){
 		return false;
 	})
 })
-
-
-//
-// $.get(apiCall, function(res){
-// 			console.log(res);
-// 			$("#info").html("<img src='http://pokeapi.co/media/img/"+id+".png' /><h3>"+res.name+"</h3>");
-// 			$("#info").append("<h4>Types</h4><ul></ul>");
-// 			for (var j = 0; j < res.types.length; j++){
-// 				$("#info ul").append("<li>"+res.types[j].name+"</li>");
-// 			};
-// 			$("#info").append("<h4>Height</h4><p>"+res.height+"</p>");
-// 			$("#info").append("<h4>Weight</h4><p>"+res.weight+"</p>");
-// 		}, 'json');
